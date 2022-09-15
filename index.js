@@ -1,17 +1,6 @@
 const contacts = require("./contacts");
-
-// (async () => {
-// const allConctacts = await contacts.getListContacts();
-// console.log("allConctacts", allConctacts);
-// const contactById = await contacts.getContactById("k0m66AwUqJ-X3EN4xfrLc");
-// console.log("contactById", contactById);
-// const removeContact = await contacts.removeContact(8);
-// console.log("removeContact", removeContact);
-// const newContact = await contacts.addContact("Vasya21", "mail", "25-26-27");
-// console.log("newContact", newContact);
-// })();
-
 const { Command } = require("commander");
+
 const program = new Command();
 program
   .option("-a, --action <type>", "choose action")
