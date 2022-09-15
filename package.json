@@ -21,5 +21,9 @@
   "homepage": "https://github.com/OlehKulyk2710/goit-nodejs-hw-01#readme",
   "devDependencies": {
     "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "commander": "^9.4.0",
+    "nanoid": "^3.3.4"
   }
 }
